@@ -11,7 +11,6 @@ app.use(router);
 
 const start = async () => {
   await connectDB(config.MONGODB_URL);
-
   app.listen(config.PORT || 3000, () => {
     console.log(`Server listening on port ${config.PORT}!`);
   });
