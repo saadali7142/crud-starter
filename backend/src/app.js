@@ -15,5 +15,4 @@ const start = async () => {
     console.log(`Server listening on port ${config.PORT}!`);
   });
 };
-
 start();
